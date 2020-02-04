@@ -1,7 +1,6 @@
 # Hello World Program in Bash Shell
 mkdir iAmTechie
 cd iAmTechie
-pwd 
  for f in {1..100}
 do
     echo "$(PWD)/NCS$f.txt"
