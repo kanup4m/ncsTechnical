@@ -1,0 +1,16 @@
+# Hello World Program in Bash Shell
+mkdir iAmTechie
+cd iAmTechie
+pwd 
+ for f in {1..100}
+do
+    echo hello>"NCS$f.txt"
+    echo "$ls">>"NCS$f".txt
+done
+ls
+
+for f in {1..100}
+do
+   cat "NCS$f".txt
+   
+done
