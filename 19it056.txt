@@ -7,9 +7,7 @@ do
     echo "$ls">>"NCS$f".txt
 done
 ls
-
 for f in {1..100}
 do
-   cat "NCS$f".txt
-   
+   cat "NCS$f".txt  
 done
